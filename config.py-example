@@ -1,0 +1,12 @@
+ENDPOINT_URL = 'http://13.250.60.25:3000/api/watering'
+DEVICE_ID = <YOUR DEVICE ID / NRP>
+SSID = <YOUR SSID NAME>
+PASSWORD = <YOUR PASSWORD>
+
+def get_config():
+    return {
+        'ssid': SSID,
+        'password': PASSWORD,
+        'endpoint_url': ENDPOINT_URL,
+        'device_id': DEVICE_ID
+    }
